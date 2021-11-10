@@ -137,7 +137,6 @@ Forum" header on desktop. */
     .banner-title {
       color: black !important;
       cursor: default;
-      font-family: $font-stack;
       margin-bottom: 0;
       text-align: left;
     }
@@ -170,13 +169,11 @@ Forum" header on desktop. */
     width: 90vw !important;
     h1 {
       cursor: default;
-      font-family: $font-stack;
       font-size: 2.5em;
       font-weight: 600;
     }
     .category-title-description {
       cursor: default;
-      font-family: $font-stack;
       font-size: 1em;
       font-weight: 500;
     }
