@@ -68,7 +68,6 @@
 }
 
 .btn-icon-text {
-  @include btn();
   align-items: center;
   display: inline-flex;
   height: 32px;
@@ -76,7 +75,6 @@
 }
 
 .btn-primary {
-  @include text-button-small(var(--bold-bg), var(--bold-fg));
   &.btn-hover,
   &:hover {
     background-color: var(--bold-bg) !important;
@@ -111,7 +109,6 @@
 }
 
 .btn-danger {
-  @include text-button-small();
   &.discourse-no-touch {
     background-color: var(--bold-bg);
     color: var(--bold-fg);
