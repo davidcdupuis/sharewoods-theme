@@ -1,3 +1,16 @@
+<script type="text/javascript" version="0.8">
+	import { createWidget } from 'discourse/widgets/widget';
+
+	createWidget('tradingview-banner-widget', {
+	  tagName: 'div.hello',
+
+	  html() {
+	    return "Hello World";
+	  }
+	});
+</script>
+
+
 <script type="text/discourse-plugin" version="0.8">
   // This is the plugin outlet, followed by a custom name for the component
   api.registerConnectorClass("below-site-header", "custom-homepage", {
