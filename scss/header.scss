@@ -1,5 +1,4 @@
 
-
 .d-header {
   border-bottom: 1px solid var(--surface-high-contrast);
   box-shadow: none;
@@ -26,9 +25,7 @@
   .header-buttons {
     grid-column: 2;
     margin-top: 0;
-    .btn {
-      @include text-button-large();
-    }
+
     .btn:hover {
       background-color: var(--bold-bg);
       color: var(--bold-fg);
