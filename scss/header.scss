@@ -196,24 +196,3 @@ this pushes it Header+24px from the top */
     }
   }
 }
-
-/* When showing the header-text, at certain sizes of screen it becomes
-untenable to display it without breaking the layout. These rules hide
-the text entirely when it reaches break points */
-@if $header-text {
-  @media (max-width: 700px) {
-    .d-header {
-      #site-text-logo {
-        font-size: 0;
-      }
-    }
-  }
-
-  @media (max-width: 540px) {
-    .d-header {
-      #site-text-logo {
-        font-size: 0;
-      }
-    }
-  }
-}
