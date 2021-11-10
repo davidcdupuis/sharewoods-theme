@@ -1,0 +1,7 @@
+display_tradingview_banner:
+  default: true
+  description: 'Do you want to display the TV banner?'
+
+tradingview_symbol:
+  default: AAPL
+  description: 'The symbol used in Trading View'
