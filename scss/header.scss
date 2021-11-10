@@ -11,17 +11,6 @@
   }
   #site-text-logo {
     font-size: 0;
-    /* We decided to NOT show the title of the website at launch */
-    @if $header-text {
-      align-items: center;
-      display: inline-flex;
-      font-family: $heading-stack;
-      font-size: 1.5em;
-      font-weight: 500;
-      height: 42px;
-      line-height: 1em;
-      letter-spacing: 0.03em;
-    }
   }
   #site-text-logo:before {
     content: url($figma-icon);
