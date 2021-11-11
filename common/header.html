@@ -1,0 +1,20 @@
+<script type="text/javascript">
+	window.onscroll = function() {scrollFunction()};
+	var header = document.getElementsByClassName("d-header")[0];
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			header.style['background-color'] = "white";
+			var links = header.getElementsByClassName("d-icon");
+			for (var i = 0; i < links.length; i++) {
+				links[i].style.color = "black";
+			}
+		} else {
+			header.style['background-color'] = "rgba(0,0,0,0.8)";
+			var links = header.getElementsByClassName("d-icon");
+			for (var i = 0; i < links.length; i++) {
+				links[i].style.color = "white";
+			}
+		}
+	}
+</script>
