@@ -45,6 +45,7 @@
 
     #navigation-bar {
       margin-top: 1em;
+			display: none !important;
     }
 
     #main-outlet {
@@ -71,6 +72,7 @@
     // Changing the layout to fit the grid
 
     .category-breadcrumb {
+			display:none !important;
       > li {
         height: auto;
       }
