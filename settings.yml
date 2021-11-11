@@ -7,7 +7,7 @@ tradingview_symbol:
   description: 'The symbol used in Trading View'
 
 sidebar-alignment:
-  default: left
+  default: right
   type: enum
   choices:
     - left
