@@ -41,21 +41,11 @@
 <script type="text/x-handlebars" data-template-name="/connectors/below-site-header/custom-homepage">
   {{#if displayCustomHomepage}}
     <div class="custom-homepage-wrapper wrap">
-			<!-- TradingView Widget BEGIN -->
 			<div class="tradingview-widget-container">
 			  <div class="tradingview-widget-container__widget"></div>
-			  <div class="tradingview-widget-copyright"><a href="https://fr.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Prix aujourd'hui</span></a> par TradingView</div>
+			  <div class="tradingview-widget-copyright"><a href="https://fr.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Price Today</span></a> par TradingView</div>
 			  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
-			  {
-			  "symbol": "NASDAQ:AAPL",
-			  "width": "100%",
-			  "locale": "fr",
-			  "colorTheme": "light",
-			  "isTransparent": false
-			}
-			  </script>
 			</div>
-			<!-- TradingView Widget END -->
     </div>
   {{/if}}
 </script>
