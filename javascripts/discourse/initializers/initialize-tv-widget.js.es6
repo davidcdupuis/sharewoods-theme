@@ -10,7 +10,7 @@ export default {
 			  tagName: 'div.hello',
 
 			  html() {
-			    return 'Hello World!';
+			    return 'Trading View Banner Widget';
 			  }
 			});
     });
