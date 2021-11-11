@@ -10,7 +10,7 @@ export default {
 			  tagName: 'div.hello',
 
 			  html() {
-			    return '<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><div class="tradingview-widget-copyright"><a href="https://fr.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Prix aujourd\'hui</span></a> par TradingView</div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>{"symbol": "NASDAQ:AAPL","width": "100%","locale": "en","colorTheme": "light","isTransparent": false}</script></div>';
+			    return 'Hello World!';
 			  }
 			});
     });
