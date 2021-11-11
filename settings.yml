@@ -5,3 +5,10 @@ display_tradingview_banner:
 tradingview_symbol:
   default: AAPL
   description: 'The symbol used in Trading View'
+
+sidebar-alignment:
+  default: left
+  type: enum
+  choices:
+    - left
+    - right
